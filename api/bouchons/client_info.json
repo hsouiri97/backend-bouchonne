@@ -1,13 +1,13 @@
 {
   "success": true,
-  "client": {
-    "first_name": "Hamza",
-    "last_name": "SOUIRI",
+  "customerInfo": {
+    "firstName": "Hamza",
+    "lastName": "SOUIRI",
     "gender": "male",
     "country": "Morocco",
     "city": "Fès",
     "phone": "+21212345678",
-    "adresse": "lorem ipsum dolor sit amet",
+    "address": "lorem ipsum dolor sit amet",
     "cp": "30000"
   }
 }

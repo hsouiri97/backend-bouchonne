@@ -9,8 +9,8 @@
     $error = file_get_contents("bouchons/error.json");
 
     if($_SERVER['REQUEST_METHOD'] == 'GET') {
-        $name = $_GET["name"];
-        if($name === "client_info") {
+        $name = $_GET["stubName"];
+        if($name === "customer-info") {
             echo $client_info;
         }
         if ($name === "error") {
